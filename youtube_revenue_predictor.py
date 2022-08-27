@@ -89,7 +89,3 @@ plt.scatter(plotx ,y_test)
 plt.scatter(plotx ,y_pred)
 
 max(y_test)
-
-y_testnp = y_test.to_numpy()
-y_testnp[y_testnp == max(y_testnp)]
-
